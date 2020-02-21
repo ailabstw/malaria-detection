@@ -15,15 +15,18 @@ tensorflow
 
 
 ## Training
-
+After downloading TIME and processing the file paths of images and annotations according to the format outline [here](https://github.com/fizyr/keras-retinanet#csv-datasets), the malaria detection algorithm could be trained by:
+```
+python ./keras-retinanet/keras-retinanet/bin/train.py /path/to/
+```
 
 
 ## Inference
-An example script 'inference.py' of testing the network on one blood smear image is included in the repository. For usage, run:
-'''
+An example script `inference.py` of testing the network on one blood smear image is included in the repository. For usage, run:
+```
 # Running directly from the repository:
 inference.py /path/to/image /path/to/predicted_image /path/to/model/weight
-'''
+```
 
 ## Authors
 
