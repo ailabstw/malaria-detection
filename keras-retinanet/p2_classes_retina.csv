@@ -1,0 +1,8 @@
+P. falciparum_ring, 0
+P. falciparum_trophozoite, 1
+P. falciparum_schizont, 2
+P. falciparum_gametocyte, 3
+P. vivax_ring, 4
+P. vivax_trophozoite, 5
+P. vivax_schizont, 6
+P. vivax_gametocyte, 7
