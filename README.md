@@ -1,4 +1,6 @@
 # Assessment of Expert-Level Automated Detection of Plasmodium falciparum in Digitized Thin Blood Smear Images
+This repository provided the soruce code of the malaria detection algorithm described in the paper [Assessment of Expert-Level Automated Detection of Plasmodium falciparum in Digitized Thin Blood Smear Images]() (*JAMA Network Open*. 2020;3(2):e200206. doi:10.1001/jamanetworkopen.2020.0206)
+
 The malaria detection algorithm was developed based on [Retinanet](https://arxiv.org/abs/1708.02002), a 1-stage object detection neural network. We referenced to the keras implementation of Retinanet ([fizyr/keras-retinanet](https://github.com/fizyr/keras-retinanet)).
 
 We offered the source code to train the malaria-detection neural network and the inference code to analyse testing blood smear images. The pre-trained weight of the model after trained on TIME (Taiwan Images for Malaria Eradication, see Data Availability section) is available upon request.
